@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>web</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+	body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+	img{
+		display: flex;
+		align-content: center;
+		margin-left: 3rem;
+        margin-right: 3rem;
+        border-radius: 20px;
+		width: 1430px;
+		height: 400px;
+	}
+	.img img{
+		margin-top: 2rem;
+		width: 1420px;
+		height: 400px;
+		box-shadow:  10px 14px 10px rgba(0, 0, 0, 0.3);
+	}
+	ul{
+		text-decoration: square;
+		padding-left: 20px;
+	}
+
+	.ab{
+		list-style: none;
+		font-size: 20px;
+	}
+	.ab a{
+		color: white;
+		text-decoration: none;
+	}
+	.section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+     h1,h2,h3{
+     	color: rgba(113, 82, 255, 0.95);
+     }
+		
+</style>
+</head>
+<body>
+	<div class="navbar">
+		<ul class="nav-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#CSS">CSS</a></li>
+			<li><a href="#IN">Internal css</a></li>
+			<li><a href="#IN">External css</a></li>
+			<li><a href="#About">About</a></li>	
+		</ul>
+	</div>
+
+<div class="img">
+<img class src="css.png">	
+</div>
+<div class="section">
+<h1 id="CSS">What is CSS?</h1>
+<p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+<br>
+<ul>
+ <li>Style define how to display HTML elements</li>
+ <li>Style are normally stored in Style Sheet</li>
+ <li>Style were added to HTML 4.0 upper version to solve problem</li>
+ <li>External Style can save you a lot of work</li>
+ <li>External Style can stored CSS files</li>
+ </ul>
+</div>
+</p>
+
+<img src="2.png">
+
+<div class="section">
+<h2>Cascading Order</h2>
+<p>What style will be used when there is to more than one style 
+specified for an HTML elements.</p>
+<ul>
+ <li>External style sheet</li>
+ <li>Internal style sheet</li>
+ <li>Inline style</li>
+ </ul>
+</div>
+
+<div class="section">
+<h3 id="IN">Internal Style Sheet</h3>
+<br>
+<img src="Internal.png" style="width: 50%;">
+</div>
+<div class="section">
+<h3>External Style Sheet</h3>
+<br>
+<img src="External.png" style="width: 50%;">
+<br>
+</div>
+
+
+<div id="About" style="background: #7152FF ;color: white;">
+<br>
+<h1 style="color: white;margin-left: 2rem;">About</h1>
+<br><br>
+<ul class="ab" style="color: white;margin-left: 2rem;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#CSS">CSS</a></li>
+			<li><a href="#IN">Internal css</a></li>
+			<li><a href="#IN">External css</a></li>
+			<li><a href="#About">About</a></li>	
+		</ul>
+<br>
+<br><br><br>
+</div>
+</body>
+</html>
